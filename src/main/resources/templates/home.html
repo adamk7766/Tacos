@@ -10,5 +10,10 @@
     <img th:src="@{/images/TacoCloud.png}"/>
     
     <a th:href="@{/design}" id="design">Design a taco</a>
+    
+    <form method="POST" th:action="@{/logout}" id="logoutForm">
+      <input type="submit" value="Logout"/>
+    </form>
+    
   </body>
 </html>
